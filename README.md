@@ -147,3 +147,7 @@ Commit and push to `origin` (don't commit `node_modules/` or `dist/` - they're g
 However, since lab marks do sometimes go missing, I would encourage everyone to submit the URL of their repository to Canvas as the submission for this lab assignment (and for all other labs).  If there are any lab mark discrepancies, at least we have your submission to re-mark it.
 
 > **AI policy:** this lab is hand-coded. You may ask an AI assistant to explain a DOM API or interpret an error, but write the controller yourself. See `project/ai-policy.md`.
+
+## Reflection
+
+Keeping the board cells in sync by hand is tedious and easy to get wrong because every state change has to update the DOM in multiple places. React solves this by letting the UI re-render from state, so the page stays consistent without manually rebuilding table cells on every click.
